@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #c1baba;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: white;
+    position: fixed;
+    width: 195vh;
+    z-index: 1;
+    
+}
+ul{
+  display: flex;
+  gap: 40px;
+  font-family: 2em;
+  padding-top: ; 
+  list-style: none;  
+  font-size: 1.2em;  
+  padding-top: 10px; 
+}
+/* .header ul li:hover{
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    border: 5px solid green;
+    width: 100px;
+} */
+.btn-login{
+    color: white;
+    border-radius: 12px;
+}
+.btn1{
+    border-radius: 10px;
+    background-color: green;
+    padding: 3px 20px;
+    border: none;
+}
+.btn1:hover{
+    background-color: transparent;
+}
+.btn2{
+background-color: transparent;
+border-radius: 10px;
+padding: 3px 20px;
+border: 2px solid green;
+margin-left: 0px;
+}
+.btn2:hover{
+    background-color: green;
+}
+/* section 2 */
+.hero{
+    background-image: linear-gradient(to bottom, rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(assets/image\ 1.png);
+    /* background-repeat: no-repeat;
+    background-position:center ; */
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+}
+.hero h1{
+    text-align: center;
+    padding-top: 8%;
+    color: white;
+    font-size: 4.4em;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+.hero p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 25%;
+}
+
+.btn-get{
+    background-color: green;
+    padding: 8px 20px;
+    color: white;
+    font-size: 2em;
+    margin-left: 33%;
+    border: none;
+    border-radius: 20px;
+}
+.btn-learn{
+    background-color:transparent;
+    padding: 8px 10px;
+    color: white;
+    font-size: 2em;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+
+.about {
+display: flex;
+justify-content: space-around;
+}
+.img{
+    width: 35%;
+    
+    padding-left: 4%;
+    padding-top: 5%;
+    position: relative;
+    animation-name: anim1;
+    animation-duration: 3s;
+    /* animation-timeline: view(); */
+    /* animation-range: entry ; */
+    /* animation-timeline: view();
+    animation-range: 0; */
+}
+.img:hover{
+    /* transform: scaley(1.2); */
+    /* transform: rotate(180deg); */
+    /* transform: translate(400px,160px); */
+
+}
+.box{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(245, 248, 245);
+    color: rgb(7, 54, 16);
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+    border-radius: 12px;
+    font-size: 1.2em;
+    
+}
+.box{
+    text-align: center;
+    margin-top: 2%;
+}
+.text{
+    padding-left: 2%;
+    padding-top: 8%;
+    width: 35%;
+   animation-name: anim2;
+   animation-duration: 3s;
+}
+.text h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: rgb(4, 53, 4);
+}
+.btnn{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(4, 53, 4);
+    color: white;
+    margin-top: 4%;
+}
+.services {
+    background: #c1baba;
+    padding: 50px 20px;
+}
+.services h1{
+    text-align: center;
+    font-size: 3em;
+   margin-top: -3%;
+   color: rgb(4, 53, 4);
+   font-weight: bold;
+   padding-bottom: 2%;
+}
+.services p{
+    width: 45%;
+    padding-bottom: 3%;
+    padding-left: 27%;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.service-car {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+}
+.Website {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+}
+.content{
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+}
+.contect i{
+    padding: 10px;
+}
+.contect h3{
+    color: green
+}
+.social i{
+    padding: 10px;
+}
+.social{
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+}
+@media(max-width: 360px){
+    ul{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .header .btn-get{
+        display: none;
+    }
+    .header{
+        padding: 2px 6px;
+        width: 100%;
+        
+    }
+    .text{
+        width: 100%;
+        padding-left: 1px;
+    }
+    .hero h1{
+        padding-right: 60px;
+        
+    }
+    .hero{
+        height: 100px;
+    }
+    .text h1{
+        font-size: 2em;
+        font-weight: 100;
+        padding-left: 1px;
+    }
+}
+@keyframes anim1{
+    from{
+        transform: translate(250px);
+
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+@keyframes anim2{
+    from{
+        transform: translate(-250px);
+
+    }
+    to{
+        transform: translate(0px);
+    }
+}
