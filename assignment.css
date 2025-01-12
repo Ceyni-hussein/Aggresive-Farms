@@ -178,9 +178,9 @@ justify-content: space-around;
 }
 
 .service-cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    display: flex;
+    gap: 40px;
+    padding-left: 10%;
 }
 
 .service-car {
