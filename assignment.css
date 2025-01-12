@@ -180,7 +180,8 @@ justify-content: space-around;
 .service-cards {
     display: flex;
     gap: 40px;
-    padding-left: 10%;
+    padding-left: 70%;
+    padding: 60px;
 }
 
 .service-car {
