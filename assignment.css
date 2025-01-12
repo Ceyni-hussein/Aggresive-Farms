@@ -192,6 +192,10 @@ justify-content: space-around;
     width: 300px;
     height: 200px;
 }
+.service-car h3{
+    font-size: 2em;
+    color: rgb(87, 81, 81);
+}
 .Website {
     background: #fff;
     padding: 10px;
