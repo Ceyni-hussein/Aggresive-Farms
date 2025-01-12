@@ -198,11 +198,16 @@ justify-content: space-around;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
 }
 #website{
-    padding: 40px;
+    padding: 20px;
+    font-size: 4em;
+}
+.Website h3{
+    color: rgb(87, 81, 81);
+    font-size: 2em;
 }
 .content{
     background: #fff;
@@ -214,11 +219,13 @@ justify-content: space-around;
     height: 200px;
 }
 #contect {
-    padding: 40px;
-    font-weight: 900;
+    padding: 20px;
+    font-size: 4em;
 }
-.contect h3{
-    color: green
+.content h3{
+    color: rgb(87, 81, 81);
+    font-size: 2em;
+    
 }
 .social i{
     padding: 10px;
