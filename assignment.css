@@ -188,16 +188,16 @@ justify-content: space-around;
     padding: 10px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    width: 200px;
-    height: 100px;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
 }
 .Website {
     background: #fff;
     padding: 10px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 15px;
     width: 200px;
     height: 100px;
 }
@@ -207,11 +207,12 @@ justify-content: space-around;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
 }
-.contect i{
-    padding: 10px;
+#contect {
+    padding: 40px;
+    font-weight: 900;
 }
 .contect h3{
     color: green
