@@ -272,7 +272,9 @@ justify-content: space-around;
     padding: 0 25%;
 }
 .box1{
-    
+    width: 400px;
+    height: 500px;
+    background-color: gray;
 }
 @media(max-width: 360px){
     ul{
