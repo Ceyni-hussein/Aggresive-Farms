@@ -287,6 +287,9 @@ justify-content: space-around;
     padding-left: 24%;
     padding-top: 8%;
 }
+.box1 h1{
+    padding-left: 24%;
+}
 .box2{
     width: 400px;
     height: 500px;
