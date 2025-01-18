@@ -290,10 +290,12 @@ justify-content: space-around;
 .box1 h2{
     padding-left: 44%;
     padding-top: 5%;
+    font-size: 2em;
 }
 .box1 p{
     width: 85%;
     padding-left: 2%;
+    color: gray;
 }
 .box2{
     width: 400px;
