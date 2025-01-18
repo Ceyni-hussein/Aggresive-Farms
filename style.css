@@ -271,7 +271,10 @@ justify-content: space-around;
     margin-top: 20px;
     padding: 0 25%;
 }
-.boxes
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
 .box1{
     width: 400px;
     height: 500px;
