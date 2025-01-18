@@ -271,6 +271,9 @@ justify-content: space-around;
     margin-top: 20px;
     padding: 0 25%;
 }
+.link p,a{
+    color: rgb(4, 53, 4);;
+}
 .boxes{
     display: flex;
     justify-content: space-around;
