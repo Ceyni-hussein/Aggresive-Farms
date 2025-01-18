@@ -333,6 +333,7 @@ justify-content: space-around;
 .box3 p{
     width: 85%;
     padding-left: 2%;
+    color: gray;
 }
 .box4{
     width: 400px;
