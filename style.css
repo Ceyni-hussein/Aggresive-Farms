@@ -274,7 +274,7 @@ justify-content: space-around;
 .boxes{
     display: flex;
     justify-content: space-around;
-    padding-top: 7%;
+    padding-top: 5%;
     padding-bottom: 10%;
 }
 
@@ -332,17 +332,17 @@ justify-content: space-around;
 .box4{
     width: 400px;
     height: 500px;
-    background-color: gray;
+    background-color: white;
 }
-.box1 img{
+.box4 img{
     padding-left: 24%;
     padding-top: 8%;
 }
-.box1 h2{
+.box4 h2{
     padding-left: 44%;
     padding-top: 5%;
 }
-.box1 p{
+.box4 p{
     width: 85%;
     padding-left: 2%;
 }
