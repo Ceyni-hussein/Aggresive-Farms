@@ -271,6 +271,9 @@ justify-content: space-around;
     margin-top: 20px;
     padding: 0 25%;
 }
+.box1{
+    
+}
 @media(max-width: 360px){
     ul{
         display: none;
