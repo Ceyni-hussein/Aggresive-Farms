@@ -347,10 +347,12 @@ justify-content: space-around;
 .box4 h2{
     padding-left: 44%;
     padding-top: 5%;
+    font-size: 2em;
 }
 .box4 p{
     width: 85%;
     padding-left: 2%;
+    color: gray;
 }
 @media(max-width: 360px){
     ul{
