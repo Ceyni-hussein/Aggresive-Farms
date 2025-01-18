@@ -334,6 +334,18 @@ justify-content: space-around;
     height: 500px;
     background-color: gray;
 }
+.box1 img{
+    padding-left: 24%;
+    padding-top: 8%;
+}
+.box1 h2{
+    padding-left: 44%;
+    padding-top: 5%;
+}
+.box1 p{
+    width: 85%;
+    padding-left: 2%;
+}
 @media(max-width: 360px){
     ul{
         display: none;
