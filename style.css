@@ -274,7 +274,7 @@ justify-content: space-around;
 .boxes{
     display: flex;
     justify-content: space-around;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 4%;
 }
 
