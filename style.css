@@ -369,6 +369,7 @@ justify-content: space-around;
 .sustainable{
     padding-top: 20%;
     color: white;
+    font-size: 3em;
     
 }
 @media(max-width: 360px){
