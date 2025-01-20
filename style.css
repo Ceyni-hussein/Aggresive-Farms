@@ -358,7 +358,7 @@ justify-content: space-around;
     color: gray;
 }
 .sustainable{
-    background-image: linear-gradient(to bottom, rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(assets/products/img);
+    background-image: linear-gradient(to bottom, rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(assets/products/image\ 1.png);
     /* background-repeat: no-repeat;
     background-position:center ; */
     background-size: cover;
