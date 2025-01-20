@@ -367,7 +367,8 @@ justify-content: space-around;
 
 }
 .sustainable{
-    text-align: center;
+    padding: 25%;
+    
 }
 @media(max-width: 360px){
     ul{
