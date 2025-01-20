@@ -376,10 +376,11 @@ justify-content: space-around;
 }
 .btn-learnmore{
     background-color: rgb(23, 23, 100);
-    padding: 8px 20px;
+    padding: 6px 4px;
     color: white;
-    font-size: 2em;
-    margin-left: 33%;
+    font-size: 0.8em;
+    margin-left: 5%;
+    margin-top: 4%;
     border: none;
     border-radius: 20px;
 }
