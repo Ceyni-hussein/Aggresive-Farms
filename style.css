@@ -366,6 +366,9 @@ justify-content: space-around;
     height: 500px;
 
 }
+.sustainable{
+
+}
 @media(max-width: 360px){
     ul{
         display: none;
