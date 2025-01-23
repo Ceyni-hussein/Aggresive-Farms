@@ -397,12 +397,16 @@ justify-content: space-around;
 .qoraal{
     justify-content: space-around;
     display: flex;
-    
-    
+}
+.text{
+    padding: 5% 4%;
 }
 .text h1{
     font-size: 6em;
     padding-bottom: 2%;
+}
+.text p{
+    font-size: 2em;
 }
 .boxxx{
     width: 400px;
