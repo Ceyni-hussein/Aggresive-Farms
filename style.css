@@ -394,7 +394,9 @@ justify-content: space-around;
     border: 4px solid white;
     border-radius: 20px;
 }
-.qoraal
+.qoraal{
+    justify-content: space-around;
+}
 .boxxx{
     width: 400px;
     height: 500px;
