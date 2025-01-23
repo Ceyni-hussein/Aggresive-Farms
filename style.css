@@ -407,6 +407,7 @@ justify-content: space-around;
 }
 .text p{
     font-size: 2em;
+    color: gray;
 }
 .boxxx{
     width: 400px;
