@@ -397,6 +397,7 @@ justify-content: space-around;
 .qoraal{
     justify-content: space-around;
     display: flex;
+    padding: 10%;
 }
 .boxxx{
     width: 400px;
