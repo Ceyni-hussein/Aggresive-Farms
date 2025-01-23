@@ -397,12 +397,18 @@ justify-content: space-around;
 .qoraal{
     justify-content: space-around;
     display: flex;
-    padding: 4%;
+    padding: 2%;
+    
+}
+.text h1{
+    font-size: 6em;
+    padding-bottom: 2%;
 }
 .boxxx{
     width: 400px;
     height: 500px;
     background-color: white;
+    margin-top: 5%;
 }
 @media(max-width: 360px){
     ul{
