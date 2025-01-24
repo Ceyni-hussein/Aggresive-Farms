@@ -429,13 +429,14 @@ justify-content: space-around;
     display: flex;
     gap: 20px;
     padding: 5%;
+    padding-left: 20%;
 }
 .star h1{
 color: white;
 padding-top: 7%;
 font-size: 3em;
 }
-.star h3{
+.star h4{
     color: white;
 }
 
