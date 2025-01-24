@@ -440,6 +440,21 @@ font-size: 3em;
     color: white;
     padding-top: 4%;
 }
+.product{
+    display: flex;
+    gap: 20px;
+   
+    padding-left: 20%;
+}
+.product h1{
+color: white;
+padding-top: 7%;
+font-size: 3em;
+}
+.product h4{
+    color: white;
+    padding-top: 4%;
+}
 
  
 @media(max-width: 360px){
