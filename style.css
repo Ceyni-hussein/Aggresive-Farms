@@ -432,6 +432,7 @@ justify-content: space-around;
 }
 .star h1{
 color: white;
+padding-top: 3%;
 }
  
 @media(max-width: 360px){
