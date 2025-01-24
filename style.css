@@ -451,9 +451,25 @@ color: white;
 padding-top: 7%;
 font-size: 3em;
 }
-.product h4{
+.product p{
     color: white;
     padding-top: 4%;
+}
+.check{
+    display: flex;
+    gap: 20px;
+   
+    padding-left: 20%;
+}
+.check h1{
+color: white;
+padding-top: 7%;
+font-size: 3em;
+}
+.check p{
+    color: white;
+    padding-top: 4%;
+    font-size: 2em;
 }
 
  
