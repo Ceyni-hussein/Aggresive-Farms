@@ -425,6 +425,10 @@ justify-content: space-around;
     border: none;
     border-radius: 8px;
 }
+.star{
+    display: flex;
+    gap: 20px;
+}
 @media(max-width: 360px){
     ul{
         display: none;
@@ -457,6 +461,7 @@ justify-content: space-around;
         padding-left: 1px;
     }
 }
+
 @keyframes anim1{
     from{
         transform: translate(250px);
