@@ -140,8 +140,12 @@ height: 100vh;
     
 }
 .box{
-    text-align: center;
-    margin-top: 2%;
+    margin-bottom: 20%;
+}
+.box p{
+    font-size: 1.4em;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 .text{
     padding-left: 2%;
@@ -155,12 +159,16 @@ height: 100vh;
     font-weight: 700;
     color: rgb(4, 53, 4);
 }
+.text p{
+    font-size: 2em;
+}
 .btnn{
     width: 150px;
     height: 50px;
     background-color: rgb(4, 53, 4);
     color: white;
     margin-top: 4%;
+    font-size: 1.5em;
 }
 .services {
     background: #c1baba;
