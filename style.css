@@ -69,15 +69,17 @@ margin-left: 0px;
     padding-top: 8%;
     color: white;
     font-size: 7.4em;
-    
+    padding-left: 10%;
     padding-right: 20%;
 
 }
 .hero p{
+    font-size: 3.6em;
+    width: 65%;
     color: white;
     text-align: center;
     margin-top: 20px;
-    padding: 0 25%;
+    padding: 3% 10%;
 }
 
 .btn-get{
